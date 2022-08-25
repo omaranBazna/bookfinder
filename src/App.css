@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
   background-color: black;
+
+ 
+
 }
 .search-bar{
     margin:20px;
@@ -20,6 +23,7 @@ width:100%;
    width:40%;
    max-width:500px;
 padding:10px 20px;
+background-color: var(--color-one);
 
 border-top-left-radius:999px;
 border-bottom-left-radius:999px;
