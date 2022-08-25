@@ -6,3 +6,9 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.book-body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

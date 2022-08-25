@@ -3,7 +3,7 @@ import React from "react";
 const Book = ({ title, author, imgURL, details }) => {
   return (
     <div className="book">
-      <div>
+      <div className="book-body">
         <img className="book-cover" src={imgURL} />
         <div className="book-details">
           <h1>{title}</h1>
