@@ -1,6 +1,6 @@
 import React from "react";
 
-const Book = () => {
+const Book = ({ title, author, imgURL, details }) => {
   return <div></div>;
 };
 
