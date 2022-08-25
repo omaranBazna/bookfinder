@@ -8,6 +8,9 @@
     justify-content: center;
     flex-direction: column;
     background:rgb(245, 236, 165);
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
 }
 
 .book-body{
