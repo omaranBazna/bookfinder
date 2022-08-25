@@ -39,4 +39,8 @@
     background:rgb(0, 223, 0);
     border:none;
     outline:none;
+    cursor:pointer;
+}
+.book-btn:hover{
+    background:rgb(42, 249, 42);
 }
