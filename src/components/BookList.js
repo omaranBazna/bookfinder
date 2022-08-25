@@ -5,13 +5,15 @@ const BookList = ({ searched }) => {
   return (
     <div>
       {books.map((book) => {
-        <Book
-          key={book.id}
-          title={book.title}
-          author={book.author}
-          imgURL={book.imgURL}
-          details={book.Description}
-        />;
+        return (
+          <Book
+            key={book.id}
+            title={book.title}
+            author={book.author}
+            imgURL={book.imgURL}
+            details={book.Description}
+          />
+        );
       })}
     </div>
   );
