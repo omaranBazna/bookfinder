@@ -8,7 +8,7 @@ const Search = () => {
   };
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Search for Book"
