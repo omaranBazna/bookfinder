@@ -3,9 +3,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  background-color: black;
 }
 .search-bar{
     margin:20px;
+outline: none;
+border:none;
+width:100%;
+
+
+}
+
+.search-bar >form >input{
+    outline: none;
+    border:none; 
+   width:40%;
+
+}
+
+.search-bar >form {
+    display: flex;
+    justify-content: center; 
+} 
+.search-bar >form >input:focus{
+    outline: none;
+    border:none; 
 }
 .book{
     font-size:14px;
