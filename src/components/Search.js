@@ -2,6 +2,10 @@ import React from "react";
 import { useState } from "react";
 const Search = () => {
   const [search, setSearch] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div>
       <form>
