@@ -1,6 +1,7 @@
 
 
 .book{
+    font-size:14px;
     width:400px;
     display:flex;
     align-self: center;

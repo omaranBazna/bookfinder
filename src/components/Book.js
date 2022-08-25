@@ -6,9 +6,9 @@ const Book = ({ title, author, imgURL, details }) => {
       <div className="book-body">
         <img className="book-cover" src={imgURL} />
         <div className="book-details">
-          <h1>{title}</h1>
-          <h3>{author}</h3>
-          <p>{details}</p>
+          title: <h1>{title}</h1>
+          author: <h3>{author}</h3>
+          details: <p>{details}</p>
         </div>
       </div>
       <button className="book-btn">Details</button>
