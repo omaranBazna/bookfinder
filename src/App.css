@@ -26,3 +26,13 @@
 .book-cover{
     width:120px;
 }
+
+.book-btn{
+    width:30%;
+    margin:auto;
+    padding:10px 20px;
+    color:rgb(0, 0, 0);
+    background:rgb(0, 223, 0);
+    border:none;
+    outline:none;
+}
