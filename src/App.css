@@ -20,6 +20,9 @@ width:100%;
    width:40%;
    max-width:500px;
 padding:10px 20px;
+
+border-top-left-radius:999px;
+border-bottom-left-radius:999px;
 }
 
 .search-bar >form {
