@@ -1,5 +1,12 @@
-
-
+.App{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    margin:20px;
+}
 .book{
     font-size:14px;
     width:400px;
@@ -11,8 +18,13 @@
     margin:20px;
     padding:20px;
     border-radius:10px;
-}
 
+}
+.book-list{
+    display:flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
 .book-body{
     display:flex;
     align-items: center;

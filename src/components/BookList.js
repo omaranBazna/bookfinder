@@ -3,7 +3,7 @@ import { books } from "../utilis/book-list";
 import Book from "./Book";
 const BookList = ({ searched }) => {
   return (
-    <div>
+    <div className="book-list">
       {books.map((book) => {
         return (
           <Book

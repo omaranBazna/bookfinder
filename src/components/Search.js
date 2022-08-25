@@ -7,7 +7,7 @@ const Search = () => {
     e.preventDefault();
   };
   return (
-    <div>
+    <div className="search-bar">
       <form onSubmit={handleSubmit}>
         <input
           type="text"
