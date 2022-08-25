@@ -19,6 +19,7 @@ width:100%;
     border:none; 
    width:40%;
    max-width:500px;
+padding:10px 20px;
 }
 
 .search-bar >form {
