@@ -29,3 +29,8 @@ App
 Seung: search bar / booklist / api 
 
 googlebook api:  https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor
+
+
+8/29
+
+Seung: call api and fetch 
