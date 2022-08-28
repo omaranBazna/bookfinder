@@ -2,13 +2,13 @@
 
 List of Components:
 App 
- SearchBar:
-  props:
-  state:
+ SearchBar: v
+  props: v
+  state: v
     Searched_book
 
- BookList:
- props:
+ BookList: v
+ props: v 
 
  state:
    arrayBook[]
@@ -23,3 +23,9 @@ App
  
 
 ( cloned it. let's see )
+
+
+8/28
+Seung: search bar / booklist / api 
+
+googlebook api:  https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor
