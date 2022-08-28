@@ -3,7 +3,15 @@ import "./searchbar.css"
 
 function Searchbar() {
   return (
-    <div>searchbar</div>
+    <div> 
+     <form>
+        <input
+            type ="text"
+            placeholder="Search your book"
+        /> 
+        <button type="submit">Search</button>
+     </form>
+    </div>
   )
 }
 
