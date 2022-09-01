@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 export const Booklist = (props) => {
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
     const [items, setItems] = useState([])
     useEffect (()=>{
         fetch("https://www.googleapis.com/books/v1/volumes?q=flowers+inauthor")
@@ -14,20 +14,22 @@ export const Booklist = (props) => {
         .then(
             (result)=> {
             setItems(result)
-            setLoading(true)
+            setLoading(false)
         });
     },[]);
 
-    if (!loading) {
+    if (loading) {
         return <div>Loading...</div>;
       } else {
+
+        // {loading ? <div> Loading...</div> : null }
         return (
             <div>
             {items.map((item)=>(
                 < li key ={item.id}>  
-                    {item.title} 
-                    {item.authors}
-                    {item.publishedDate}
+                    title : {item.title},
+                    author : {item.authors},
+                    published: {item.publishedDate},
                     {item.image}
                 </li>
             ))}
@@ -35,6 +37,7 @@ export const Booklist = (props) => {
         )
     }
 }
+
 
 
 // function Booklist(props) {
