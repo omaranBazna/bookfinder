@@ -1,22 +1,22 @@
-import React from 'react'
-import "./searchbar.css"
+import React from "react";
+import "./searchbar.css";
 
-function Searchbar() {
+function Searchbar(props) {
   return (
-    <div> 
-     <form>
+    <div>
+      <form>
         <input
-            type ="text"
-            placeholder="Search your book"
-        /> 
+          type="text"
+          placeholder="Search your book"
+          value={props.search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+          }}
+        />
         <button type="submit">Search</button>
-     </form>
+      </form>
     </div>
-  )
+  );
 }
 
-
-
-
-
-export default Searchbar
+export default Searchbar;
