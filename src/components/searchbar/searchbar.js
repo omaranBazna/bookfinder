@@ -10,7 +10,10 @@ function Searchbar(props) {
           placeholder="Search your book"
           value={props.search}
           onChange={(e) => {
-            setSearch(e.target.value);
+            props.setSearch(e.target.value);
+            {
+              /*called setter of the App state */
+            }
           }}
         />
         <button type="submit">Search</button>

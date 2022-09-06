@@ -20,6 +20,7 @@ export const Booklist = (props) => {
   } else {
     return (
       <div>
+        <div>{props.search /*value from App state*/}</div>
         {items.map((item) => (
           <li key={item.id}>
             {item.volumeInfo.title}
