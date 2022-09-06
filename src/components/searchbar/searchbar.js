@@ -1,11 +1,13 @@
 import React from 'react'
 import "./searchbar.css"
 import { useState } from "react";
+import Booklist from "../booklist/booklist"
 
 
+function Searchbar(props) {
+const [book, setBook] = useState('');
 
-function Searchbar() {
-const [data, setData] = useState('');
+
 
 const handleSubmit = event => {
     event.preventDefault();
@@ -14,13 +16,15 @@ const handleSubmit = event => {
   return (
     <div> 
      <form onSubmit={handleSubmit}>
-        <input
+        {/* <Booklist input={book} */}
+            <input
             type ="text"
             placeholder="Search your book"
-            onChange={event=> setData(event.target.value)}
-            value={data}
+            onChange={event=> setBook(event.target.value)}
+            value={book}
         /> 
         <button type="submit">Search</button>
+        {/* <Booklist/> */}
      </form>
     </div>
   )
